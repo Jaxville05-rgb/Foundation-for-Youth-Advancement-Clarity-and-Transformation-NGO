@@ -1,105 +1,126 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>F.A.C.T. - Foundation for Youth Advancement, Clarity & Transformation</title>
+  <title>F.A.C.T. Foundation - Empowering Youth</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f9fc;
-      color: #333;
+    /* Reset & Base */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Arial', sans-serif; line-height:1.6; color:#333; }
+    a { text-decoration:none; color: inherit; }
+    ul { list-style: none; }
+
+    /* Header / Navigation */
+    header { 
+      background-color: #1e3a8a; color: #fff; 
+      position: sticky; top:0; z-index:1000; 
     }
-    header {
-      background-color: #1e3a8a;
-      color: #fff;
-      padding: 30px 20px;
-      text-align: center;
+    nav { display:flex; justify-content:center; padding: 15px 0; }
+    nav a { margin: 0 20px; font-weight:bold; color:#fff; transition:0.3s; }
+    nav a:hover { color:#fcd34d; }
+
+    /* Hero Section */
+    .hero { 
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1554774853-5b48b3e7f52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHlldXRob3xlbnwwfHx8fDE2ODY2NzkyNzE&ixlib=rb-4.0.3&q=80&w=1080') center/cover no-repeat; 
+      color: #fff; text-align:center; padding:100px 20px; 
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    header p {
-      margin-top: 10px;
-      font-size: 1.2rem;
-      font-style: italic;
-    }
-    nav {
-      background-color: #3b82f6;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section h2 {
-      color: #1e3a8a;
-      margin-bottom: 20px;
-    }
-    footer {
-      background-color: #1e3a8a;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    .programs li {
-      margin-bottom: 10px;
+    .hero h1 { font-size:3rem; margin-bottom:20px; }
+    .hero p { font-size:1.3rem; margin-bottom:30px; }
+    .hero a { background-color:#fcd34d; color:#1e3a8a; padding:15px 30px; font-weight:bold; border-radius:5px; transition:0.3s; }
+    .hero a:hover { background-color:#eab308; }
+
+    /* Sections */
+    section { padding:60px 20px; max-width:1000px; margin:auto; }
+    section h2 { color:#1e3a8a; margin-bottom:20px; text-align:center; }
+    section p, section li { margin-bottom:15px; }
+
+    /* Programs Grid */
+    .programs { display:grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .program-card { background:#f3f4f6; padding:20px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
+
+    /* Buttons */
+    .btn { display:inline-block; background:#1e3a8a; color:#fff; padding:10px 20px; border-radius:5px; transition:0.3s; }
+    .btn:hover { background:#2563eb; }
+
+    /* Footer */
+    footer { background:#1e3a8a; color:#fff; text-align:center; padding:30px 20px; margin-top:40px; }
+
+    /* Smooth Scroll */
+    html { scroll-behavior: smooth; }
+
+    /* Responsive Hero Text */
+    @media(max-width:768px) {
+      .hero h1 { font-size:2rem; }
+      .hero p { font-size:1rem; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>F.A.C.T.</h1>
-  <p>Foundation for Youth Advancement, Clarity & Transformation</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#mission">Mission</a>
-  <a href="#programs">Programs</a>
-  <a href="#contact">Contact</a>
-</nav>
+<section class="hero">
+  <h1>F.A.C.T. Foundation</h1>
+  <p>Empowering youth with education, clarity, and transformation</p>
+  <a href="#programs">Learn More</a>
+</section>
 
 <section id="about">
   <h2>About Us</h2>
   <p>
-    The <strong>Foundation for Youth Advancement, Clarity and Transformation (F.A.C.T.)</strong> is an educational non-profit organization dedicated to empowering young people with knowledge, skills, and opportunities for personal and community growth.
+    The <strong>Foundation for Youth Advancement, Clarity & Transformation (F.A.C.T.)</strong> is an educational NGO dedicated to helping young people gain knowledge, confidence, and the tools to create meaningful change in their communities.
   </p>
 </section>
 
 <section id="mission">
   <h2>Our Mission</h2>
   <p>
-    To advance education and personal development by providing mentorship, skill-building programs, and resources that enable young people to thrive academically, professionally, and socially.
+    To provide mentorship, skill-building programs, and educational resources that enable youth to thrive academically, professionally, and personally.
   </p>
 </section>
 
 <section id="programs">
   <h2>Our Programs</h2>
-  <ul class="programs">
-    <li>Educational workshops and seminars</li>
-    <li>Youth mentorship and guidance</li>
-    <li>Skill development and training sessions</li>
-    <li>Community learning initiatives</li>
-    <li>Digital education and technology awareness</li>
-  </ul>
+  <div class="programs">
+    <div class="program-card">
+      <h3>Workshops & Seminars</h3>
+      <p>Interactive sessions to build knowledge and skills in academics, leadership, and technology.</p>
+    </div>
+    <div class="program-card">
+      <h3>Youth Mentorship</h3>
+      <p>One-on-one guidance to help young people set goals, gain clarity, and succeed.</p>
+    </div>
+    <div class="program-card">
+      <h3>Skill Development</h3>
+      <p>Training in life skills, coding, digital literacy, and career preparation.</p>
+    </div>
+    <div class="program-card">
+      <h3>Community Initiatives</h3>
+      <p>Projects designed to inspire positive change in local communities.</p>
+    </div>
+  </div>
 </section>
 
 <section id="contact">
-  <h2>Contact Us</h>
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:contact@factfoundation.org">contact@factfoundation.org</a></p>
+  <p>Website: <a href="https://factfoundation.org" target="_blank">www.factfoundation.org</a></p>
+  <p>Location: Nigeria</p>
+  <p><a href="#about" class="btn">Back to Top</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2026 F.A.C.T. Foundation. All rights reserved.</p>
+</footer>
+
+</body>
+</html>  
