@@ -1,5 +1,5 @@
 # Foundation-for-Youth-Advancement-Clarity-and-Transformation-NGO
-An open-source repository documenting the mission, programs, and digital resources of an Educational NGO focused on improving access to quality learning.
+Official repository of the Foundation for Youth Advancement, Clarity and Transformation (F.A.C.T.) — an educational NGO empowering young people through learning, mentorship, and innovation.
 FACT Educational Foundation
 
 ## About
@@ -34,3 +34,6 @@ Please follow our contribution guidelines.
 ## Contact
 - Email: info@FACT.org  
 - Location: Nigeria
+
+
+
