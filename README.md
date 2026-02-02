@@ -1,9 +1,9 @@
 # Foundation-for-Youth-Advancement-Clarity-and-Transformation-NGO
 An open-source repository documenting the mission, programs, and digital resources of an Educational NGO focused on improving access to quality learning.
-LearnForward Educational Foundation
+FACT Educational Foundation
 
 ## About
-LearnForward Educational Foundation is a non-profit organization committed to improving access to quality education for underserved communities.
+FACT Educational Foundation is a non-profit organization committed to improving access to quality education for underserved communities.
 
 We empower learners through educational programs, digital learning initiatives, community outreach, and strategic partnerships.
 
@@ -32,5 +32,5 @@ Contributions are welcome from educators, developers, designers, and volunteers.
 Please follow our contribution guidelines.
 
 ## Contact
-- Email: info@learnforward.org  
+- Email: info@FACT.org  
 - Location: Nigeria
